@@ -1,0 +1,57 @@
+.box {
+  /* margin-left: 800px; */
+  position: relative;
+  /* left: 950px; */
+  /* left: 25px; */
+  margin-top: 20px;
+  border: 2px solid grey;
+  /* top: 250px; */
+  color: white;
+  /* background-color: white; */
+  width: 40px;
+  padding: 0px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.qbtn {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(227, 226, 226);
+  color: white;
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+  /* animation: App-logo-spin infinite 20s linear; */
+}
+.qbtn:focus {
+  outline: none;
+  border: none;
+}
+.qbtn:hover {
+  background-color: white;
+}
+
+.qbtn:hover .tool {
+  visibility: visible;
+}
+.qbtn .tool {
+  visibility: hidden;
+  margin-left: 10px;
+  width: 150px;
+  font-size: 20px;
+  padding: 0px;
+  background-color: #f84298;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}

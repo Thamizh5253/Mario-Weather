@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border: grey 2px solid;
+  border-radius: 5px;
+  padding: 25px;
+  background-color: transparent;
+  box-shadow: 4px 4px 10px grey;
+}
+.likebtn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  outline: none;
+  text-align: center;
+  background-color: #f84298;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  outline: none;
+  scale: 1.1;
+}
+
+.btn:hover {
+  border: white 1px solid;
+}
