@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Mario-Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Mario-Weather, a simple weather application to get real-time weather information for a city. This React application fetches weather data from the OpenWeatherMap API and displays it in an easy-to-read format.
 
-## Available Scripts
+## Demo
+Check out the live demo of the Mario-Weather app: [Mario-Weather Demo](https://mario-weather.vercel.app/)
 
-In the project directory, you can run:
+## Initial Setup
 
-### `npm start`
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Thamizh5253/Mario-Weather.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd Mario-Weather
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Install Dependencies:**
+   ```bash
+   npm install
 
-### `npm test`
+4. **Run the Application:**
+   ```bash
+   npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  The Mario-Weather app allows users to enter a city name and retrieve the current weather information. It includes the following features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📌API Key Fetching:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app fetches the API key from a server 
+API
+ to access the OpenWeatherMap API.
 
-### `npm run eject`
+📌Weather Data Display:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Displays weather information such as temperature, description, longitude, latitude, ground level, and sea level.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌Like and Questions Components:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Includes Like and Project components for additional interactivity.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## How to Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📌Enter the name of the city in the provided input field.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📌Click the "Get Weather" button to fetch and display the weather information.
 
-### Code Splitting
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📌React: JavaScript library for building user interfaces.
 
-### Analyzing the Bundle Size
+📌react-toastify: A toast notification library for React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📌CSS: Styling for a clean and responsive UI.
 
-### Making a Progressive Web App
+Feel free to explore, modify, and enhance the Mario-Weather app as needed for your use case. If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
