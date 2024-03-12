@@ -7,7 +7,7 @@ import Ques from "./ques";
 import "react-toastify/dist/ReactToastify.css";
 
 const Task = () => {
-  const [city, setCity] = useState("Karur");
+  const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
   const [apiKey, setApi] = useState(null);
@@ -94,7 +94,7 @@ const Task = () => {
 
       <form onSubmit={handleFormSubmit} className="form">
         <label className="lab">Enter City</label>
-        <input type="text" value={city} onChange={handleInputChange} />
+        <input type="text" placeholder="city name" value={city} onChange={handleInputChange} />
         <button className="btn" type="submit">
           Get Weather
         </button>
